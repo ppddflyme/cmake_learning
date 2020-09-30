@@ -1,4 +1,3 @@
-jacui@jacui-HP-Zhan-86-Pro-G2-MT-Business-PC:~/workspace/cmake_git/cmake_learning/0001_get_filename_component/build$ cmake ..
 -- The C compiler identification is GNU 9.3.0
 -- The CXX compiler identification is GNU 9.3.0
 -- Check for working C compiler: /usr/bin/cc
@@ -14,7 +13,15 @@ jacui@jacui-HP-Zhan-86-Pro-G2-MT-Business-PC:~/workspace/cmake_git/cmake_learnin
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- test_file:/home/jacui/workspace/cmake_git/cmake_learning/0001_get_filename_component/test.cc
+-- test_file_REALPATH:/home/jacui/workspace/cmake_git/cmake_learning/0001_get_filename_component/test.cc
 -- test_file_path:/home/jacui/workspace/cmake_git/cmake_learning/0001_get_filename_component
+-- test_file_name:test.cc
+-- test_file_dir:/home/jacui/workspace/cmake_git/cmake_learning/0001_get_filename_component
+-- test_file_ext:.cc
+-- test_file_name_we:test
+-- test_file_last_ext:.cc
+-- test_file_name_wle:test
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/jacui/workspace/cmake_git/cmake_learning/0001_get_filename_component/build
+
