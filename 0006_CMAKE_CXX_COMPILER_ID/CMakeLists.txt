@@ -1,0 +1,4 @@
+cmake_minimum_required(VERSION 3.8)
+
+project(CMAKE_CXX_COMPILER_ID)
+message(STATUS "CMAKE_CXX_COMPILER_ID:" ${CMAKE_CXX_COMPILER_ID})
