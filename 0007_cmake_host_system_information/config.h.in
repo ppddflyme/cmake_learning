@@ -1,0 +1,30 @@
+#pragma once
+
+#define NUMBER_OF_LOGICAL_CORES @_NUMBER_OF_LOGICAL_CORES@ //Number of logical cores
+#define NUMBER_OF_PHYSICAL_CORES @_NUMBER_OF_PHYSICAL_CORES@ //Number of physical cores
+#define HOSTNAME "@_HOSTNAME@" //Hostname
+#define FQDN "@_FQDN@" // Fully qualified domain name
+#define TOTAL_VIRTUAL_MEMORY  @_TOTAL_VIRTUAL_MEMORY@ //Total virtual memory in MiB 1
+#define AVAILABLE_VIRTUAL_MEMORY @_AVAILABLE_VIRTUAL_MEMORY@ //Available virtual memory in MiB 1
+#define TOTAL_PHYSICAL_MEMORY @_TOTAL_PHYSICAL_MEMORY@ //Total physical memory in MiB 1
+#define AVAILABLE_PHYSICAL_MEMORY @_AVAILABLE_PHYSICAL_MEMORY@ //Available physical memory in MiB 1
+#define IS_64BIT @_IS_64BIT@ //One if processor is 64Bit
+#define HAS_FPU @_HAS_FPU@ //One if processor HAS floating point unit
+#define HAS_MMX @_HAS_MMX@ //One if processor supports MMX instructions
+#define HAS_MMX_PLUS @_HAS_MMX_PLUS@ //One if processor supports Ext. MMX instructions
+#define HAS_SSE @_HAS_SSE@ //One if processor supports SSE instructions
+#define HAS_SSE2 @_HAS_SSE2@ //One if processor supports SSE2 instructions
+#define HAS_SSE_FP @_HAS_SSE_FP@ //One if processor supports SSE FP instructions
+#define HAS_SSE_MMX @_HAS_SSE_MMX@ //One if processor supports SSE MMX instructions
+#define HAS_AMD_3DNOW @_HAS_AMD_3DNOW@ //One if processor supports 3DNow instructions
+#define HAS_AMD_3DNOW_PLUS @_HAS_AMD_3DNOW_PLUS@ //One if processor supports 3DNow+ instructions
+#define HAS_IA64 @_HAS_IA64@ //One if IA64 processor emulating x86
+#define HAS_SERIAL_NUMBER @_HAS_SERIAL_NUMBER@ //One if processor #define HAS serial number
+#define PROCESSOR_SERIAL_NUMBER "@_PROCESSOR_SERIAL_NUMBER@" //Processor serial number
+#define PROCESSOR_NAME "@_PROCESSOR_NAME@" //Human readable processor name
+#define PROCESSOR_DESCRIPTION "@_PROCESSOR_DESCRIPTION@" //Human readable full processor description
+#define OS_NAME "@_OS_NAME@" //See CMAKE_HOST_SYSTEM_NAME
+#define OS_RELEASE "@_OS_RELEASE@" //The OS sub-type e.g. on Windows Professional
+#define OS_VERSION "@_OS_VERSION@" //The OS build ID
+#define OS_PLATFORM "@_OS_PLATFORM@" //See CMAKE_HOST_SYSTEM_PROCESSOR
+#define TEST_STRING "@TEST_STRING@" // just for test
